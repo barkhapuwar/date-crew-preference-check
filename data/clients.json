@@ -1,0 +1,1885 @@
+[
+ {
+  "id": "C01",
+  "name": "Ananya S.",
+  "age": 27,
+  "gender": "F",
+  "city": "Kolkata",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 167
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C02",
+  "name": "Vihaan R.",
+  "age": 29,
+  "gender": "M",
+  "city": "Kolkata",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 21,
+    "max": 32
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 178
+   }
+  ],
+  "notes": [
+   "Wants someone who will not relocate away from family"
+  ]
+ },
+ {
+  "id": "C03",
+  "name": "Meera N.",
+  "age": 34,
+  "gender": "F",
+  "city": "Mumbai",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 31,
+    "max": 42
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 167
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C04",
+  "name": "Kabir B.",
+  "age": 34,
+  "gender": "M",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no",
+     "social"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 26,
+    "max": 37
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 179
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C05",
+  "name": "Kavya M.",
+  "age": 26,
+  "gender": "F",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 23,
+    "max": 34
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 167
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C06",
+  "name": "Dev D.",
+  "age": 32,
+  "gender": "M",
+  "city": "Bangalore",
+  "preferences": [
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 178
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C07",
+  "name": "Tara T.",
+  "age": 30,
+  "gender": "F",
+  "city": "Bangalore",
+  "preferences": [
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Christian"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 27,
+    "max": 38
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 164
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Bangalore",
+     "Hyderabad",
+     "Mumbai"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C08",
+  "name": "Karan K.",
+  "age": 35,
+  "gender": "M",
+  "city": "Delhi",
+  "preferences": [
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 27,
+    "max": 38
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 176
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Delhi",
+     "Chennai",
+     "Chennai"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C09",
+  "name": "Sana P.",
+  "age": 30,
+  "gender": "F",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 27,
+    "max": 38
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 166
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Chennai",
+     "Kolkata",
+     "Mumbai"
+    ]
+   }
+  ],
+  "notes": [
+   "Prefers someone ambitious but with work-life balance"
+  ]
+ },
+ {
+  "id": "C10",
+  "name": "Rahul G.",
+  "age": 32,
+  "gender": "M",
+  "city": "Bangalore",
+  "preferences": [
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 182
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C11",
+  "name": "Neha S.",
+  "age": 34,
+  "gender": "F",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 31,
+    "max": 42
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 166
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C12",
+  "name": "Yash R.",
+  "age": 33,
+  "gender": "M",
+  "city": "Hyderabad",
+  "preferences": [
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 25,
+    "max": 36
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 177
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C13",
+  "name": "Simran N.",
+  "age": 31,
+  "gender": "F",
+  "city": "Ahmedabad",
+  "preferences": [
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Muslim"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 28,
+    "max": 39
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 166
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Prefers someone ambitious but with work-life balance"
+  ]
+ },
+ {
+  "id": "C14",
+  "name": "Harsh B.",
+  "age": 29,
+  "gender": "M",
+  "city": "Hyderabad",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no",
+     "social"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu",
+     "Muslim"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 21,
+    "max": 32
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 175
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C15",
+  "name": "Ira M.",
+  "age": 32,
+  "gender": "F",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 29,
+    "max": 40
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 163
+   }
+  ],
+  "notes": [
+   "Prefers someone ambitious but with work-life balance"
+  ]
+ },
+ {
+  "id": "C16",
+  "name": "Manav D.",
+  "age": 35,
+  "gender": "M",
+  "city": "Kolkata",
+  "preferences": [
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 27,
+    "max": 38
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 177
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Kolkata",
+     "Delhi",
+     "Hyderabad"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C17",
+  "name": "Maya T.",
+  "age": 29,
+  "gender": "F",
+  "city": "Hyderabad",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 26,
+    "max": 37
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 160
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Hyderabad",
+     "Mumbai",
+     "Kolkata"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C18",
+  "name": "Sameer K.",
+  "age": 29,
+  "gender": "M",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 21,
+    "max": 32
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 179
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Chennai",
+     "Ahmedabad",
+     "Bangalore"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C19",
+  "name": "Sneha P.",
+  "age": 27,
+  "gender": "F",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 160
+   }
+  ],
+  "notes": [
+   "Prefers someone ambitious but with work-life balance"
+  ]
+ },
+ {
+  "id": "C20",
+  "name": "Varun G.",
+  "age": 32,
+  "gender": "M",
+  "city": "Mumbai",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 181
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Mumbai",
+     "Delhi",
+     "Ahmedabad"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Wants someone who will not relocate away from family"
+  ]
+ },
+ {
+  "id": "C21",
+  "name": "Ananya S.",
+  "age": 26,
+  "gender": "F",
+  "city": "Delhi",
+  "preferences": [
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 23,
+    "max": 34
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 163
+   }
+  ],
+  "notes": [
+   "Prefers someone ambitious but with work-life balance"
+  ]
+ },
+ {
+  "id": "C22",
+  "name": "Vihaan R.",
+  "age": 30,
+  "gender": "M",
+  "city": "Ahmedabad",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no",
+     "social"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 22,
+    "max": 33
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 181
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Ahmedabad",
+     "Mumbai",
+     "Ahmedabad"
+    ]
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C23",
+  "name": "Meera N.",
+  "age": 28,
+  "gender": "F",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 25,
+    "max": 36
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 160
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Pune",
+     "Ahmedabad",
+     "Delhi"
+    ]
+   }
+  ],
+  "notes": [
+   "Wants someone who will not relocate away from family"
+  ]
+ },
+ {
+  "id": "C24",
+  "name": "Kabir B.",
+  "age": 35,
+  "gender": "M",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 27,
+    "max": 38
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 178
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C25",
+  "name": "Kavya M.",
+  "age": 28,
+  "gender": "F",
+  "city": "Bangalore",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu",
+     "Hindu"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 25,
+    "max": 36
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 163
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Bangalore",
+     "Ahmedabad",
+     "Bangalore"
+    ]
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C26",
+  "name": "Dev D.",
+  "age": 29,
+  "gender": "M",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Jain"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 21,
+    "max": 32
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 176
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C27",
+  "name": "Tara T.",
+  "age": 27,
+  "gender": "F",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Sikh",
+     "Hindu"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 162
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Pune",
+     "Pune",
+     "Bangalore"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C28",
+  "name": "Karan K.",
+  "age": 28,
+  "gender": "M",
+  "city": "Ahmedabad",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no",
+     "social"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 20,
+    "max": 31
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 182
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C29",
+  "name": "Sana P.",
+  "age": 32,
+  "gender": "F",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 29,
+    "max": 40
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 166
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Pune",
+     "Delhi",
+     "Delhi"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C30",
+  "name": "Rahul G.",
+  "age": 32,
+  "gender": "M",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 24,
+    "max": 35
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 175
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C31",
+  "name": "Neha S.",
+  "age": 26,
+  "gender": "F",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "smoking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 23,
+    "max": 34
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 165
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Pune",
+     "Pune",
+     "Mumbai"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C32",
+  "name": "Yash R.",
+  "age": 31,
+  "gender": "M",
+  "city": "Pune",
+  "preferences": [
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Muslim"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 23,
+    "max": 34
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 176
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C33",
+  "name": "Simran N.",
+  "age": 33,
+  "gender": "F",
+  "city": "Delhi",
+  "preferences": [
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Christian"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 30,
+    "max": 41
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 163
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C34",
+  "name": "Harsh B.",
+  "age": 36,
+  "gender": "M",
+  "city": "Kolkata",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no",
+     "social"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "does not want",
+     "open"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 28,
+    "max": 39
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 178
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Kolkata",
+     "Mumbai",
+     "Kolkata"
+    ]
+   }
+  ],
+  "notes": [
+   "Wants someone who will not relocate away from family"
+  ]
+ },
+ {
+  "id": "C35",
+  "name": "Ira M.",
+  "age": 26,
+  "gender": "F",
+  "city": "Ahmedabad",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 23,
+    "max": 34
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 167
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C36",
+  "name": "Manav D.",
+  "age": 34,
+  "gender": "M",
+  "city": "Chennai",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 26,
+    "max": 37
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 181
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C37",
+  "name": "Maya T.",
+  "age": 32,
+  "gender": "F",
+  "city": "Delhi",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 29,
+    "max": 40
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 162
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Delhi",
+     "Chennai",
+     "Pune"
+    ]
+   }
+  ],
+  "notes": [
+   "Should be family-oriented"
+  ]
+ },
+ {
+  "id": "C38",
+  "name": "Sameer K.",
+  "age": 35,
+  "gender": "M",
+  "city": "Hyderabad",
+  "preferences": [
+   {
+    "field": "drinking",
+    "tier": "hard",
+    "allowed": [
+     "no"
+    ]
+   },
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Muslim",
+     "Sikh"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 27,
+    "max": 38
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 182
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Hyderabad",
+     "Pune",
+     "Kolkata"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Not too religious"
+  ]
+ },
+ {
+  "id": "C39",
+  "name": "Sneha P.",
+  "age": 34,
+  "gender": "F",
+  "city": "Mumbai",
+  "preferences": [
+   {
+    "field": "children",
+    "tier": "hard",
+    "allowed": [
+     "wants",
+     "open"
+    ]
+   },
+   {
+    "field": "diet",
+    "tier": "hard",
+    "allowed": [
+     "vegetarian",
+     "eggetarian"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 31,
+    "max": 42
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "min": 163
+   }
+  ],
+  "notes": []
+ },
+ {
+  "id": "C40",
+  "name": "Varun G.",
+  "age": 34,
+  "gender": "M",
+  "city": "Mumbai",
+  "preferences": [
+   {
+    "field": "religion",
+    "tier": "hard",
+    "allowed": [
+     "Hindu"
+    ]
+   },
+   {
+    "field": "maritalStatus",
+    "tier": "hard",
+    "allowed": [
+     "never married"
+    ]
+   },
+   {
+    "field": "age",
+    "tier": "soft",
+    "min": 26,
+    "max": 37
+   },
+   {
+    "field": "heightCm",
+    "tier": "soft",
+    "max": 180
+   },
+   {
+    "field": "city",
+    "tier": "soft",
+    "allowed": [
+     "Mumbai",
+     "Hyderabad",
+     "Pune"
+    ]
+   },
+   {
+    "field": "education",
+    "tier": "soft",
+    "allowed": [
+     "postgraduate",
+     "professional"
+    ]
+   }
+  ],
+  "notes": [
+   "Wants someone who will not relocate away from family"
+  ]
+ }
+]
