@@ -4,6 +4,8 @@ Prototype for The Date Crew product assessment (Part 3). It demonstrates the cor
 
 About 1 in 4 profiles shared with clients is rejected for a reason the client had already given us. This prototype flags those profiles before they go out, and turns each rejection into something the system remembers.
 
+**Live demo: <https://date-crew-preference-check.vercel.app>**
+
 **All data is synthetic, and nothing is emailed to anyone.**
 
 | | |
