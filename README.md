@@ -34,7 +34,6 @@ A short walkthrough checklist at the top ticks off as you go. **Back to start** 
 
 ```bash
 npm install
-cp .env.example .env.local   # optional: add a Gemini API key (see below)
 npm run dev                  # http://localhost:3000
 npm test                     # unit tests for the checker
 npm run generate             # regenerate the synthetic data (deterministic)
@@ -42,7 +41,14 @@ npm run generate             # regenerate the synthetic data (deterministic)
 
 ## AI tagging
 
-`/api/tag` calls the Gemini API when `GEMINI_API_KEY` is set, constrained to the fixed reason list with structured JSON output. Get a free key at <https://aistudio.google.com/apikey> and put it in `.env.local` (git-ignored). Model names change, so `GEMINI_MODEL` is configurable; if it fails the app tries `gemini-3.5-flash-lite`, then `gemini-3.5-flash`.
+`/api/tag` calls the Gemini API when `GEMINI_API_KEY` is set, constrained to the fixed reason list with structured JSON output. Get a free key at <https://aistudio.google.com/apikey> and put it in a `.env.local` file in the project root (git-ignored, never commit it):
+
+```bash
+GEMINI_API_KEY=your-key-here
+GEMINI_MODEL=gemini-3.5-flash-lite   # optional
+```
+
+Model names change, so `GEMINI_MODEL` is configurable; if it fails the app tries `gemini-3.5-flash-lite`, then `gemini-3.5-flash`. On Vercel, set the same variables under Project Settings → Environment Variables.
 
 If there is no key, the call fails, or the small per-IP demo limit is hit, it falls back to a keyword matcher, so the demo always works. The key stays server-side.
 
